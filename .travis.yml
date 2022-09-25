@@ -1,4 +1,4 @@
-os: ipados
+os: linuxs
 dist: focal
 language: python
 
