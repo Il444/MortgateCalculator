@@ -32,13 +32,13 @@ install:
   - dpl releases --token $GITHUB_TOKEN --file "bin/mobileapp001-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
-  - ls -l /home/travis/build/IL444/mobile_app_001/
+  - ls -l /home/travis/build/IL444/MortgateCalculator/
   - ls -la
   - rm -r -f .buildozer
   - ls -la
-  - rm -r -f /home/travis/build/IL444T/mobile_app_001/.buildozer
+  - rm -r -f /home/travis/build/IL444T/MortgateCalculator/.buildozer
   - ls -l /home/travis/
-  - ls -l /home/travis/build/IL444/mobile_app_001/
+  - ls -l /home/travis/build/IL444/MortgateCalculator/
   - ls -l
   - yes | cp -f buildozer-64bit.spec buildozer.spec
   - yes | travis_wait 20 buildozer android debug
