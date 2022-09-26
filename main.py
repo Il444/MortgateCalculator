@@ -1,4 +1,4 @@
-from kivy.lang import Builder
+"""from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import StringProperty, ListProperty
 
@@ -122,4 +122,11 @@ class TestNavigationDrawer(MDApp):
             )
 
 
-TestNavigationDrawer().run()
+TestNavigationDrawer().run()"""
+
+from kivymd.app import MDApp
+from kivymd.uix.label import MDLabel
+
+class MortgageCalculator(MDApp):
+    def buils(self):
+        return MDLabel(text="Hello, Mortgage Calculator", halign="center")
