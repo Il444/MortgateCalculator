@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 001
+title = Mortgage Calculator
 
 # (str) Package name
-package.name = mobileapp001
+package.name = mortgagecalcurator
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
@@ -43,10 +43,10 @@ requirements = python3,kivy==2.0.0,kivymd,sdl2_ttf==2.0.15
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/logo/SiliconValley.jpg
+presplash.filename = %(source.dir)s/data/logo/presplash512okmin.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/logo/Your_logo.png
+icon.filename = %(source.dir)s/data/logo/logo512min.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = all
